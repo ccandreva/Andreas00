@@ -8,9 +8,6 @@ $themeversion['contact'] 	= 'http://www.markwest.me.uk, http://www.andreasviklun
 $themeversion['admin'] 		= 0;
 $themeversion['user'] 		= 1;
 $themeversion['system'] 	= 0;
-$themeversion['credits'] 	= 'docs/readme.txt';
-$themeversion['help'] 		= 'docs/readme.txt';
-$themeversion['changelog'] 	= 'docs/readme.txt';
-$themeversion['license'] 	= 'docs/readme.txt';
+$themeversion['license'] 	= '';
 $themeversion['xhtml'] 		= true;
 ?>
