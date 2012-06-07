@@ -8,7 +8,7 @@ Version: 1.0 (Apr 07, 2006) */
 
 
 body {
-    background-color : #eaeaea;
+    background: #eaeaea;
 /*    background-image : url('../images/bg.gif');
     background-position : top center;
     background-repeat : repeat-y; */
@@ -21,7 +21,7 @@ body {
 
 
 #wrap {
-    background-color : #ffffff;
+    background: #ffffff;
     border: 1px solid #b0b0b0;
     border-top: none;
     -moz-box-shadow: 0 0 12px 1px #b0b0b0;
@@ -105,109 +105,43 @@ p.extmenuadmin {
 }
 
 #avmenu .z-bkey-extmenu li a {
-    background-color : #f4f4f4;
-    background-image : url('../images/menubg.gif');
-    background-position : bottom left;
-    background-repeat : repeat-x;
-    border-bottom-color : #d8d8d8;
-    border-bottom-style : solid;
-    border-bottom-width : 1px;
-    border-left-color : #cccccc;
-    border-left-style : solid;
-    border-left-width : 4px;
-    border-right-color : #d8d8d8;
-    border-right-style : solid;
-    border-right-width : 1px;
-    border-top-color : #d8d8d8;
-    border-top-style : solid;
-    border-top-width : 1px;
-
+    background: #f4f4f4 url('../images/menubg.gif') bottom left repeat-x;
+    border: 1px solid #d8d8d8;
+    border-left: 4px solid #cccccc;
     color : #505050;
     display : block;
     font-weight : bold;
     height : 20px;
-
-    padding-bottom : 0;
-    padding-left : 10px;
-    padding-right : 0;
-    padding-top : 6px;
-
+    padding: 6px 0 0 10px;
     text-decoration : none;
-
   }
 
 
 #avmenu .z-bkey-extmenu li a:hover, #avmenu .z-bkey-extmenu li a.current {
-    background-color : #eaeaea;
-    background-image : url('../images/menubg2.gif');
-    background-position : bottom left;
-    background-repeat : repeat-x;
-    border-bottom-color : #b0b0b0;
-    border-bottom-style : solid;
-    border-bottom-width : 1px;
+    background: #eaeaea url('../images/menubg2.gif') bottom left repeat-x;
+    border: 1px solid #b0b0b0;
+    border-left: 4px solid #505050;
     color : #505050;
-    border-left-color : #505050;
-    border-left-style : solid;
-    border-left-width : 4px;
-    border-right-color : #b0b0b0;
-    border-right-style : solid;
-    border-right-width : 1px;
-    border-top-color : #b0b0b0;
-    border-top-style : solid;
-    border-top-width : 1px;
   }
 
 
-
-
-
 #avmenu li a {
-    background-color : #f4f4f4;
-    background-image : url('../images/menubg.gif');
-    background-position : bottom left;
-    background-repeat : repeat-x;
-    border-bottom-color : #d8d8d8;
-    border-bottom-style : solid;
-    border-bottom-width : 1px;
+    background: #f4f4f4 url('../images/menubg.gif') bottom left repeat-x;
+    border: 1px solid #d8d8d8;
+    border-left: 4px solid #cccccc;
     color : #505050;
     display : block;
     font-weight : bold;
     height : 20px;
-    border-left-color : #cccccc;
-    border-left-style : solid;
-    border-left-width : 4px;
-    padding-bottom : 0;
-    padding-left : 10px;
-    padding-right : 0;
-    padding-top : 6px;
-    border-right-color : #d8d8d8;
-    border-right-style : solid;
-    border-right-width : 1px;
+    padding: 6px 0 0 10px;
     text-decoration : none;
-    border-top-color : #d8d8d8;
-    border-top-style : solid;
-    border-top-width : 1px;
   }
 
-
 #avmenu li a:hover, #avmenu li a.current {
-    background-color : #eaeaea;
-    background-image : url('../images/menubg2.gif');
-    background-position : bottom left;
-    background-repeat : repeat-x;
-    border-bottom-color : #b0b0b0;
-    border-bottom-style : solid;
-    border-bottom-width : 1px;
+    background: #eaeaea url('../images/menubg2.gif') bottom left repeat-x;
+    border: 1px solid #b0b0b0;
+    border-left: 4px solid #505050;
     color : #505050;
-    border-left-color : #505050;
-    border-left-style : solid;
-    border-left-width : 4px;
-    border-right-color : #b0b0b0;
-    border-right-style : solid;
-    border-right-width : 1px;
-    border-top-color : #b0b0b0;
-    border-top-style : solid;
-    border-top-width : 1px;
   }
 
 #avmenu ul ul {
@@ -227,9 +161,7 @@ p.extmenuadmin {
 #avmenu h2, #extras h2 {
     color : #004E78;
     background-color : #EAF9FD;
-    border-bottom-color : #004E78;
-    border-bottom-style : dotted;
-    border-bottom-width : 1px;
+    border-bottom: 1px dotted #004E78;
     font-size : 1.4em;
     font-weight : normal;
     padding: 2px 0 2px 5px;
@@ -328,18 +260,7 @@ p.extmenuadmin {
 /*
 #content img, #contentwide img, #contentfull img {
     background-color : #cccccc;
-    border-bottom-color : #f0f0f0;
-    border-bottom-style : solid;
-    border-bottom-width : 4px;
-    border-left-color : #f0f0f0;
-    border-left-style : solid;
-    border-left-width : 4px;
-    border-right-color : #f0f0f0;
-    border-right-style : solid;
-    border-right-width : 4px;
-    border-top-color : #f0f0f0;
-    border-top-style : solid;
-    border-top-width : 4px;
+    border: 4px solid #f0f0f0;
     color : #303030;
     display : inline;
     padding: 1px;
@@ -377,21 +298,13 @@ p.extmenuadmin {
     margin: 0 auto;
     padding: 8px 0 15px 0;
     text-align : center;
-    border-top-color : #dadada;
-    border-top-style : solid;
-    border-top-width : 2px;
+    border: 2px solid #dadada;
   }
 
 
 #footer p {
-    margin-bottom : 0;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0;
+    padding: 0;
   }
 
 
@@ -433,25 +346,12 @@ p {
 
 
 blockquote {
-    background-color : #f4f4f4;
-    background-image : url('../images/menubg.gif');
-    background-position : bottom left;
-    background-repeat : repeat-x;
-    border-bottom-color : #d8d8d8;
-    border-bottom-style : solid;
-    border-bottom-width : 1px;
+    background: #f4f4f4 url('../images/menubg.gif') bottom left repeat-x;
+    border: 1px solid #d8d8d8;
     color : #505050;
-    border-left-color : #cccccc;
-    border-left-style : solid;
-    border-left-width : 4px;
+    border-left: 4px solid #cccccc;
     margin: 16px;
     padding: 7px 7px 7px 11px;
-    border-right-color : #d8d8d8;
-    border-right-style : solid;
-    border-right-width : 1px;
-    border-top-color : #d8d8d8;
-    border-top-style : solid;
-    border-top-width : 1px;
   }
 
 
@@ -465,19 +365,8 @@ blockquote p {
 
 
 table {
-    border-bottom-color : #d8d8d8;
-    border-bottom-style : solid;
-    border-bottom-width : 1px;
+    border: 1px solid #d8d8d8;
     border-collapse : collapse;
-    border-left-color : #d8d8d8;
-    border-left-style : solid;
-    border-left-width : 1px;
-    border-right-color : #d8d8d8;
-    border-right-style : solid;
-    border-right-width : 1px;
-    border-top-color : #d8d8d8;
-    border-top-style : solid;
-    border-top-width : 1px;
     line-height : 1.3em;
     margin: 0 0 16px 0;
     padding: 0;
@@ -494,10 +383,7 @@ caption {
 
 
 th {
-    background-color : #eaeaea;
-    background-image : url('../images/menubg2.gif');
-    background-position : bottom left;
-    background-repeat : repeat-x;
+    background: #eaeaea url('../images/menubg2.gif') bottom left repeat-x;
     color : #505050;
     padding: 7px;
     text-align : left;
@@ -505,10 +391,7 @@ th {
 
 
 td {
-    background-color : #f4f4f4;
-    background-image : url('../images/menubg.gif');
-    background-position : bottom left;
-    background-repeat : repeat-x;
+    background: #f4f4f4 url('../images/menubg.gif') bottom left repeat-x;
     color : #303030;
     font-size : 0.9em;
     padding: 7px;
@@ -519,44 +402,20 @@ td {
 
 
 .button {
-    background-color : #f4f4f4;
-    background-image : url('../images/menubg.gif');
-    background-position : bottom left;
-    background-repeat : repeat-x;
-    border-bottom-color : #d8d8d8;
-    border-bottom-style : solid;
-    border-bottom-width : 1px;
+    background: #f4f4f4 url('../images/menubg.gif') bottom left repeat-x;
+    border: 1px solid #d8d8d8;
     color : #505050;
     font-weight : bold;
-    border-left-color : #cccccc;
-    border-left-style : solid;
-    border-left-width : 4px;
+    border-left: 4px solid #cccccc;
     margin: 0 0 15px 0;
     padding: 4px;
-    border-right-color : #d8d8d8;
-    border-right-style : solid;
-    border-right-width : 1px;
-    border-top-color : #d8d8d8;
-    border-top-style : solid;
-    border-top-width : 1px;
     min-width : 80px;
     max-width : 120px;
   }
 
 
 input, textarea {
-    border-bottom-color : #cccccc;
-    border-bottom-style : solid;
-    border-bottom-width : 1px;
-    border-left-color : #cccccc;
-    border-left-style : solid;
-    border-left-width : 1px;
-    border-right-color : #cccccc;
-    border-right-style : solid;
-    border-right-width : 1px;
-    border-top-color : #cccccc;
-    border-top-style : solid;
-    border-top-width : 1px;
+    border: 1px solid #cccccc;
     font-family : Verdana,Tahoma,Arial,Sans-Serif;
     font-size : 1em;
     margin: 0;
@@ -596,18 +455,7 @@ textarea {
 
 #searchform {
     background-color : #ffffff;
-    border-bottom-color : #cccccc;
-    border-bottom-style : solid;
-    border-bottom-width : 1px;
-    border-left-color : #cccccc;
-    border-left-style : solid;
-    border-left-width : 1px;
-    border-right-color : #cccccc;
-    border-right-style : solid;
-    border-right-width : 1px;
-    border-top-color : #cccccc;
-    border-top-style : solid;
-    border-top-width : 1px;
+    border: 1px solid #cccccc;
     color : #505050;
     font-size : 0.9em;
     padding: 4px;
@@ -625,43 +473,24 @@ textarea {
 
 .left {
     float : left;
-    margin-bottom : 5px;
-    margin-left : 0;
-    margin-right : 10px;
-    margin-top : 10px;
+    margin: 10px 10px 5px 0;
   }
 
 
 .right {
     float : right;
-    margin-bottom : 5px;
-    margin-left : 10px;
-    margin-right : 0;
-    margin-top : 10px;
+    margin: 10px 0 5px 10px;
   }
 
 
 .announce {
-    background-color : #f4f4f4;
-    background-image : url('../images/menubg.gif');
-    background-position : bottom left;
-    background-repeat : repeat-x;
-    border-bottom-color : #d8d8d8;
-    border-bottom-style : solid;
-    border-bottom-width : 1px;
+    background: #f4f4f4 url('../images/menubg.gif') bottom left repeat-x;
+    border: 1px solid #d8d8d8;
     color : #505050;
-    border-left-color : #cccccc;
-    border-left-style : solid;
-    border-left-width : 4px;
+    border-left: 4px solid #cccccc;
     line-height : 1.3em;
     margin: 10px 0;
     padding: 10px 10px 5px 10px;
-    border-right-color : #d8d8d8;
-    border-right-style : solid;
-    border-right-width : 1px;
-    border-top-color : #d8d8d8;
-    border-top-style : solid;
-    border-top-width : 1px;
     width : 105px;
   }
 
@@ -715,18 +544,7 @@ textarea {
 
 .highlighted {
     background-color : #f0f0f0;
-    border-bottom-color : #b0b0b0;
-    border-bottom-style : solid;
-    border-bottom-width : 1px;
-    border-left-color : #b0b0b0;
-    border-left-style : solid;
-    border-left-width : 1px;
-    border-right-color : #b0b0b0;
-    border-right-style : solid;
-    border-right-width : 1px;
-    border-top-color : #b0b0b0;
-    border-top-style : solid;
-    border-top-width : 1px;
+    border: 1px solid #b0b0b0;
     color : #303030;
     padding: 3px;
   }
