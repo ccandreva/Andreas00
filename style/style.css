@@ -95,8 +95,10 @@ p.extmenuadmin {
 }
 
 .z-bkey-extmenu ul {
+/*
     background-color : #f4f4f4 !important;
     background-image : url('../images/menubg.gif');
+*/
     list-style-image : none;
     list-style-type : none;
     margin: 0 0 20px 0;
