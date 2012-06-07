@@ -1,5 +1,7 @@
 
-/* andreas00 - an open source xhtml/css website layout by Andreas Viklund  - http://andreasviklund.com . Free to use for any purpose as long as the proper credits are given to the original author.
+/* andreas00 - an open source xhtml/css website layout by Andreas Viklund
+http://andreasviklund.com . Free to use for any purpose as long as the proper
+credits are given to the original author.
 Version: 1.0 (Apr 07, 2006) */
 
 /***** Body and main container *****/
@@ -323,7 +325,7 @@ p.extmenuadmin {
     padding: 0;
   }
 
-
+/*
 #content img, #contentwide img, #contentfull img {
     background-color : #cccccc;
     border-bottom-color : #f0f0f0;
@@ -342,7 +344,7 @@ p.extmenuadmin {
     display : inline;
     padding: 1px;
   }
-
+*/
 
 #content a, #contentwide a, #contentfull a {
     font-weight : bold;
@@ -686,7 +688,7 @@ textarea {
 
 
 .textright {
-    margin-top : -10px 0 4px 0;
+    margin: -10px 0 4px 0;
     text-align : right;
   }
 
