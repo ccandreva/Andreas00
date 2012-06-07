@@ -7,25 +7,22 @@ Version: 1.0 (Apr 07, 2006) */
 
 body {
     background-color : #eaeaea;
-    background-image : url(../images/bg.gif);
+/*    background-image : url(../images/bg.gif);
     background-position : top center;
-    background-repeat : repeat-y;
+    background-repeat : repeat-y; */
     color : #3a3a3a;
     font-family : Verdana,Tahoma,Arial,sans-serif;
     font-size : 76%;
-    margin-bottom : 0;
-    margin-left : auto;
-    margin-right : auto;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0;
+    padding: 0;
   }
 
 
 #wrap {
     background-color : #ffffff;
+    border: 1px solid #b0b0b0;
+    border-top: none;
+    -moz-box-shadow: 0 0 12px 1px #b0b0b0;
     color : #303030;
     margin-bottom : 0;
     margin-left : 50px;
@@ -35,27 +32,18 @@ body {
     padding-left : 5px;
     padding-right : 5px;
     padding-top : 1px;
-    min width : 760px;
+    min-width : 900px;
   }
 
 /***** Header *****/
 
 
 #header {
-    background-color : #ffffff;
-    background-image : url(../images/front2.jpg);
-    background-position : bottom right;
-    background-repeat : no-repeat;
+    background: #ffffff url(../images/front3.jpg) no-repeat bottom right;
     color : #505050;
-    height : 250px;
-    margin-bottom : 10px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    height : 125px;
+    margin: 0 0 10px 0;
+    padding: 0;
   }
 
 
@@ -104,7 +92,7 @@ body {
     float : left;
     margin-bottom : 10px;
     margin-left : 0;
-    margin-right : 0;
+    margin-right : 10px;
     margin-top : 0;
     padding-bottom : 0;
     padding-left : 0;
@@ -355,10 +343,10 @@ p.extmenuadmin {
 
 #content {
  clear:none;
- float:left;
+/* float:left; */
     line-height : 1.5em;
     margin-bottom : 10px;
-    margin-left : 0px;
+    margin-left : 160px;
     margin-right : 0px;
     margin-top : 10px;
     padding-bottom : 0;
@@ -511,19 +499,12 @@ p.extmenuadmin {
     clear : both;
     color : #808080;
     font-size : 0.9em;
-    margin-bottom : 0;
-    margin-left : auto;
-    margin-right : auto;
-    margin-top : 0;
-    padding-bottom : 8px;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 8px;
+    margin: 0 auto;
+    padding: 8px 0 15px 0;
     text-align : center;
     top-color : #dadada;
     top-style : solid;
     top-width : 2px;
-    width : 760px;
   }
 
 
