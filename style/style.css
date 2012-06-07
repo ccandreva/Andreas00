@@ -7,7 +7,7 @@ Version: 1.0 (Apr 07, 2006) */
 
 body {
     background-color : #eaeaea;
-/*    background-image : url(../images/bg.gif);
+/*    background-image : url('../images/bg.gif');
     background-position : top center;
     background-repeat : repeat-y; */
     color : #3a3a3a;
@@ -24,14 +24,8 @@ body {
     border-top: none;
     -moz-box-shadow: 0 0 12px 1px #b0b0b0;
     color : #303030;
-    margin-bottom : 0;
-    margin-left : 50px;
-    margin-right : 50px;
-    margin-top : 0;
-    padding-bottom : 1px;
-    padding-left : 5px;
-    padding-right : 5px;
-    padding-top : 1px;
+    margin: 0 50px;
+    padding: 1px 5px;
     min-width : 900px;
   }
 
@@ -39,7 +33,7 @@ body {
 
 
 #header {
-    background: #ffffff url(../images/front3.jpg) no-repeat bottom right;
+    background: #ffffff url('../images/front3.jpg') no-repeat bottom right;
     color : #505050;
     height : 125px;
     margin: 0 0 10px 0;
@@ -51,36 +45,21 @@ body {
     font-size : 2.5em;
     font-weight : normal;
     letter-spacing : -2px;
-    margin-bottom : 4px;
-    margin-left : 15px;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 15px;
+    margin: 0 0 4px 15px;
+    padding: 15px 0 0 0;
   }
 
 
 #header h1 a,#header h1 a:hover {
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    padding: 0;
   }
 
 
 #header p {
     font-size : 1.1em;
     letter-spacing : -1px;
-    margin-bottom : 5px;
-    margin-left : 15px;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 3px;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0 0 5px 15px;
+    padding: 0 0 0 3px;
   }
 
 /***** Left sidebar *****/
@@ -90,33 +69,18 @@ body {
 
     clear : left;
     float : left;
-    margin-bottom : 10px;
-    margin-left : 0;
-    margin-right : 10px;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0 10px;
+    padding: 0;
     width : 150px;
   }
-
-
 
 #avmenu ul {
     list-style-image : none;
     list-style-type : none;
-    margin-bottom : 20px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0 0 20px 0;
+    padding: 0;
     width : 150px;
   }
-
 
 #avmenu li {
     margin-bottom : 5px;
@@ -129,24 +93,18 @@ p.extmenuadmin {
 }
 
 .z-bkey-extmenu ul {
-    background-color : #f4f4f4 !importent;
-    background-image : url(../images/menubg.gif);
+    background-color : #f4f4f4 !important;
+    background-image : url('../images/menubg.gif');
     list-style-image : none;
     list-style-type : none;
-    margin-bottom : 20px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0 0 20px 0;
+    padding: 0;
     width : 150px;
 }
 
 #avmenu .z-bkey-extmenu li a {
     background-color : #f4f4f4;
-    background-image : url(../images/menubg.gif);
+    background-image : url('../images/menubg.gif');
     background-position : bottom left;
     background-repeat : repeat-x;
     border-bottom-color : #d8d8d8;
@@ -179,7 +137,7 @@ p.extmenuadmin {
 
 #avmenu .z-bkey-extmenu li a:hover, #avmenu .z-bkey-extmenu li a.current {
     background-color : #eaeaea;
-    background-image : url(../images/menubg2.gif);
+    background-image : url('../images/menubg2.gif');
     background-position : bottom left;
     background-repeat : repeat-x;
     border-bottom-color : #b0b0b0;
@@ -203,36 +161,36 @@ p.extmenuadmin {
 
 #avmenu li a {
     background-color : #f4f4f4;
-    background-image : url(../images/menubg.gif);
+    background-image : url('../images/menubg.gif');
     background-position : bottom left;
     background-repeat : repeat-x;
-    bottom-color : #d8d8d8;
-    bottom-style : solid;
-    bottom-width : 1px;
+    border-bottom-color : #d8d8d8;
+    border-bottom-style : solid;
+    border-bottom-width : 1px;
     color : #505050;
     display : block;
     font-weight : bold;
     height : 20px;
-    left-color : #cccccc;
-    left-style : solid;
-    left-width : 4px;
+    border-left-color : #cccccc;
+    border-left-style : solid;
+    border-left-width : 4px;
     padding-bottom : 0;
     padding-left : 10px;
     padding-right : 0;
     padding-top : 6px;
-    right-color : #d8d8d8;
-    right-style : solid;
-    right-width : 1px;
+    border-right-color : #d8d8d8;
+    border-right-style : solid;
+    border-right-width : 1px;
     text-decoration : none;
-    top-color : #d8d8d8;
-    top-style : solid;
-    top-width : 1px;
+    border-top-color : #d8d8d8;
+    border-top-style : solid;
+    border-top-width : 1px;
   }
 
 
 #avmenu li a:hover, #avmenu li a.current {
     background-color : #eaeaea;
-    background-image : url(../images/menubg2.gif);
+    background-image : url('../images/menubg2.gif');
     background-position : bottom left;
     background-repeat : repeat-x;
     border-bottom-color : #b0b0b0;
@@ -252,24 +210,15 @@ p.extmenuadmin {
 
 #avmenu ul ul {
     font-size : 0.9em;
-    margin-bottom : 5px;
-    margin-left : 15px;
-    margin-right : 0;
-    margin-top : 5px;
+    margin: 5px 0 5px 15px;
     width : 135px;
   }
 
 
 #avmenu ul ul a {
     height : 16px;
-    margin-bottom : 0;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 8px;
-    padding-right : 0;
-    padding-top : 4px;
+    margin: 0;
+    padding: 4px 0 0 8px;;
   }
 
 
@@ -281,10 +230,7 @@ p.extmenuadmin {
     border-bottom-width : 1px;
     font-size : 1.4em;
     font-weight : normal;
-    padding-bottom : 2px;
-    padding-left : 5px;
-    padding-right : 0;
-    padding-top : 2px;
+    padding: 2px 0 2px 5px;
   }
 
 /***** Right sidebar *****/
@@ -293,28 +239,16 @@ p.extmenuadmin {
 #extras {
     float : right;
     font-size : 0.9em;
-    margin-bottom : 10px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0 0 10px 10px;
+    padding: 0;
     width : 130px;
   }
 
 
 #extras p, #extras ul {
     line-height : 1.3em;
-    margin-bottom : 1.5em;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0 0 1.5em 0;
+    padding: 0;
   }
 
 
@@ -326,14 +260,8 @@ p.extmenuadmin {
 #extras li {
     list-style-image : none;
     list-style-type : none;
-    margin-bottom : 6px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0 0 6px 0;
+    padding: 0;
   }
 
 
@@ -342,17 +270,11 @@ p.extmenuadmin {
 
 
 #content {
- clear:none;
-/* float:left; */
+    clear:none;
+    /* float:left; */
     line-height : 1.5em;
-    margin-bottom : 10px;
-    margin-left : 160px;
-    margin-right : 0px;
-    margin-top : 10px;
-    padding-bottom : 0;
-    padding-left : 10px;
-    padding-right : 10px;
-    padding-top : 0;
+    margin: 10px 0 10px 160px;
+    padding: 0 10px;
     text-align : left;
 /* width:460px */
   }
@@ -362,28 +284,16 @@ p.extmenuadmin {
  clear:none;
  float:left;
     line-height : 1.5em;
-    margin-bottom : 10px;
-    margin-left : 0px;
-    margin-right : 0;
-    margin-top : 10px;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 10px 0;
+    padding: 0;
     text-align : left;
   }
 
 
 #contentfull {
     line-height : 1.5em;
-    margin-bottom : 10px;
-    margin-left : 10px;
-    margin-right : 10px;
-    margin-top : 10px;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 2px;
+    margin: 10px;
+    padding: 2px 0 0 0;
     text-align : left;
   }
 
@@ -392,14 +302,8 @@ p.extmenuadmin {
     font-size : 2.0em;
     font-weight : normal;
     letter-spacing : -1px;
-    margin-bottom : 10px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 8px;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 8px 0 10px 0;
+    padding: 0;
   }
 
 
@@ -407,28 +311,16 @@ p.extmenuadmin {
     font-size : 1.8em;
     font-weight : normal;
     letter-spacing : -1px;
-    margin-bottom : 10px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 8px;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 8px 0 10px 0;
+    padding: 0;
   }
 
 
 #content h3, #contentwide h3, #contentfull h3 {
     font-size : 1.5em;
     font-weight : normal;
-    margin-bottom : 6px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 6px;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 6px 0;
+    padding: 0;
   }
 
 
@@ -448,10 +340,7 @@ p.extmenuadmin {
     border-top-width : 4px;
     color : #303030;
     display : inline;
-    padding-bottom : 1px;
-    padding-left : 1px;
-    padding-right : 1px;
-    padding-top : 1px;
+    padding: 1px;
   }
 
 
@@ -459,36 +348,20 @@ p.extmenuadmin {
     font-weight : bold;
   }
 
-
 #content ul, #content ol,#contentwide ul, #contentwide ol,#contentfull ul, #contentfull ol {
-    margin-bottom : 16px;
-    margin-left : 20px;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0 0 16px 20px;
+    padding: 0;
   }
 
 
 #content ul ul, #content ol ol,#contentwide ul ul, #contentwide ol ol,#contentfull ul ul, #contentfull ol ol {
-    margin-bottom : 2px;
-    margin-left : 20px;
-    margin-right : 0;
-    margin-top : 2px;
+    margin: 2px 0 2px 20px;
   }
 
 
 #content li, #contentwide li, #contentfull li {
-    margin-bottom : 2px;
-    margin-left : 10px;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 4px;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0 0 2px 10px;
+    padding: 0 0 0 4px;
   }
 
 /***** Footer *****/
@@ -502,9 +375,9 @@ p.extmenuadmin {
     margin: 0 auto;
     padding: 8px 0 15px 0;
     text-align : center;
-    top-color : #dadada;
-    top-style : solid;
-    top-width : 2px;
+    border-top-color : #dadada;
+    border-top-style : solid;
+    border-top-width : 2px;
   }
 
 
@@ -553,49 +426,37 @@ a img {
 
 
 p {
-    margin-bottom : 16px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
+    margin: 0 0 16px 0;
   }
 
 
 blockquote {
     background-color : #f4f4f4;
-    background-image : url(../images/menubg.gif);
+    background-image : url('../images/menubg.gif');
     background-position : bottom left;
     background-repeat : repeat-x;
-    bottom-color : #d8d8d8;
-    bottom-style : solid;
-    bottom-width : 1px;
+    border-bottom-color : #d8d8d8;
+    border-bottom-style : solid;
+    border-bottom-width : 1px;
     color : #505050;
-    left-color : #cccccc;
-    left-style : solid;
-    left-width : 4px;
-    margin-bottom : 16px;
-    margin-left : 16px;
-    margin-right : 16px;
-    margin-top : 16px;
-    padding-bottom : 7px;
-    padding-left : 11px;
-    padding-right : 7px;
-    padding-top : 7px;
-    right-color : #d8d8d8;
-    right-style : solid;
-    right-width : 1px;
-    top-color : #d8d8d8;
-    top-style : solid;
-    top-width : 1px;
+    border-left-color : #cccccc;
+    border-left-style : solid;
+    border-left-width : 4px;
+    margin: 16px;
+    padding: 7px 7px 7px 11px;
+    border-right-color : #d8d8d8;
+    border-right-style : solid;
+    border-right-width : 1px;
+    border-top-color : #d8d8d8;
+    border-top-style : solid;
+    border-top-width : 1px;
   }
 
 
 blockquote p {
     font-size : 1.1em;
     line-height : 1.3em;
-    margin-bottom : 0;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
+    margin: 0;
   }
 
 /***** Table styles *****/
@@ -616,57 +477,39 @@ table {
     border-top-style : solid;
     border-top-width : 1px;
     line-height : 1.3em;
-    margin-bottom : 16px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0 0 16px 0;
+    padding: 0;
   }
 
 
 caption {
     font-size : 1.5em;
     font-weight : normal;
-    margin-bottom : 0;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 8px;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 6px;
+    margin: 0;
+    padding: 6px 0 8px 0;
     text-align : left;
   }
 
 
 th {
     background-color : #eaeaea;
-    background-image : url(../images/menubg2.gif);
+    background-image : url('../images/menubg2.gif');
     background-position : bottom left;
     background-repeat : repeat-x;
     color : #505050;
-    padding-bottom : 7px;
-    padding-left : 7px;
-    padding-right : 7px;
-    padding-top : 7px;
+    padding: 7px;
     text-align : left;
   }
 
 
 td {
     background-color : #f4f4f4;
-    background-image : url(../images/menubg.gif);
+    background-image : url('../images/menubg.gif');
     background-position : bottom left;
     background-repeat : repeat-x;
     color : #303030;
     font-size : 0.9em;
-    padding-bottom : 7px;
-    padding-left : 7px;
-    padding-right : 7px;
-    padding-top : 7px;
+    padding: 7px;
     text-align : left;
   }
 
@@ -675,31 +518,25 @@ td {
 
 .button {
     background-color : #f4f4f4;
-    background-image : url(../images/menubg.gif);
+    background-image : url('../images/menubg.gif');
     background-position : bottom left;
     background-repeat : repeat-x;
-    bottom-color : #d8d8d8;
-    bottom-style : solid;
-    bottom-width : 1px;
+    border-bottom-color : #d8d8d8;
+    border-bottom-style : solid;
+    border-bottom-width : 1px;
     color : #505050;
     font-weight : bold;
-    left-color : #cccccc;
-    left-style : solid;
-    left-width : 4px;
-    margin-bottom : 15px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 4px;
-    padding-left : 4px;
-    padding-right : 4px;
-    padding-top : 4px;
-    right-color : #d8d8d8;
-    right-style : solid;
-    right-width : 1px;
-    top-color : #d8d8d8;
-    top-style : solid;
-    top-width : 1px;
+    border-left-color : #cccccc;
+    border-left-style : solid;
+    border-left-width : 4px;
+    margin: 0 0 15px 0;
+    padding: 4px;
+    border-right-color : #d8d8d8;
+    border-right-style : solid;
+    border-right-width : 1px;
+    border-top-color : #d8d8d8;
+    border-top-style : solid;
+    border-top-width : 1px;
     min-width : 80px;
     max-width : 120px;
   }
@@ -720,33 +557,19 @@ input, textarea {
     border-top-width : 1px;
     font-family : Verdana,Tahoma,Arial,Sans-Serif;
     font-size : 1em;
-    margin-bottom : 0;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 4px;
-    padding-left : 4px;
-    padding-right : 4px;
-    padding-top : 4px;
+    margin: 0;
+    padding: 4px;
   }
 
 
 label {
-    margin-bottom : 2px;
-    margin-left : 2px;
-    margin-right : 2px;
-    margin-top : 2px;
+    margin: 2px;
   }
 
 
 input {
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 5px;
-    padding-right : 5px;
-    padding-top : 0;
+    margin: 0;
+    padding: 0 5px;
     min-width : 120px !important;
     max-width : 200px;
   }
@@ -764,14 +587,8 @@ textarea {
 }
 
 #searchbox {
-    margin-bottom : 16px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 6px;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 6px 0 16px 0;
+    padding: 0;
   }
 
 
@@ -791,10 +608,7 @@ textarea {
     border-top-width : 1px;
     color : #505050;
     font-size : 0.9em;
-    padding-bottom : 4px;
-    padding-left : 4px;
-    padding-right : 4px;
-    padding-top : 4px;
+    padding: 4px;
     width : 116px;
   }
 
@@ -827,31 +641,25 @@ textarea {
 
 .announce {
     background-color : #f4f4f4;
-    background-image : url(../images/menubg.gif);
+    background-image : url('../images/menubg.gif');
     background-position : bottom left;
     background-repeat : repeat-x;
-    bottom-color : #d8d8d8;
-    bottom-style : solid;
-    bottom-width : 1px;
+    border-bottom-color : #d8d8d8;
+    border-bottom-style : solid;
+    border-bottom-width : 1px;
     color : #505050;
-    left-color : #cccccc;
-    left-style : solid;
-    left-width : 4px;
+    border-left-color : #cccccc;
+    border-left-style : solid;
+    border-left-width : 4px;
     line-height : 1.3em;
-    margin-bottom : 10px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 10px;
-    padding-bottom : 5px;
-    padding-left : 10px;
-    padding-right : 10px;
-    padding-top : 10px;
-    right-color : #d8d8d8;
-    right-style : solid;
-    right-width : 1px;
-    top-color : #d8d8d8;
-    top-style : solid;
-    top-width : 1px;
+    margin: 10px 0;
+    padding: 10px 10px 5px 10px;
+    border-right-color : #d8d8d8;
+    border-right-style : solid;
+    border-right-width : 1px;
+    border-top-color : #d8d8d8;
+    border-top-style : solid;
+    border-top-width : 1px;
     width : 105px;
   }
 
@@ -867,14 +675,8 @@ textarea {
 
 
 .announce h2 {
-    margin-bottom : 10px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : 0;
-    padding-bottom : 0;
-    padding-left : 0;
-    padding-right : 0;
-    padding-top : 0;
+    margin: 0 0 10px 0;
+    padding: 0;
   }
 
 
@@ -884,10 +686,7 @@ textarea {
 
 
 .textright {
-    margin-bottom : 4px;
-    margin-left : 0;
-    margin-right : 0;
-    margin-top : -10px;
+    margin-top : -10px 0 4px 0;
     text-align : right;
   }
 
@@ -927,10 +726,7 @@ textarea {
     border-top-style : solid;
     border-top-width : 1px;
     color : #303030;
-    padding-bottom : 3px;
-    padding-left : 3px;
-    padding-right : 3px;
-    padding-top : 3px;
+    padding: 3px;
   }
 
 
@@ -943,7 +739,7 @@ textarea {
 /******************** css based themes! ********************/
 
 
-.z-clearfix:after {
+/*.z-clearfix:after {
     clear : both;
     content : ".";
     display : block;
@@ -957,7 +753,7 @@ textarea {
   }
 
 /* Hides from IE-mac \*/
-
+/*
 * html .pn-clearfix {
     height : 1%;
   }
@@ -970,8 +766,9 @@ textarea {
 /* End hide from IE-mac */
 
 /* Overflow-Method to clear float environments */
-
+/*
 .z-floatbox {
     overflow : hidden;
   }
 
+*/
