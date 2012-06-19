@@ -11,7 +11,11 @@
     <div id="avmenu">
 	{blockposition name=left}
     </div>
-    <div id="contentwide">
+    <div id="extras">
+	{blockposition name=right}
+    </div>
+    <div id="content">
+        {blockposition name=center}
         {$maincontent}
     </div>
 

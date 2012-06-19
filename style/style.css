@@ -90,7 +90,8 @@ body {
   }
 
 #avmenu li {
-    margin-bottom : 5px;
+    margin : 0 0 5px 0;
+    padding: 0;
   }
 
 
@@ -181,7 +182,7 @@ p.extmenuadmin {
 #extras {
     float : right;
     font-size : 0.9em;
-    margin: 0 0 10px 10px;
+    margin: 0 15px 10px 10px;
     padding: 0;
     width : 130px;
   }
@@ -215,18 +216,16 @@ p.extmenuadmin {
     clear:none;
     /* float:left; */
     line-height : 1.5em;
-    margin: 10px 0 10px 180px;
-    padding: 0 10px;
+    margin: 10px 180px 10px 180px;
+    padding: 0 ;
     text-align : left;
-/* width:460px */
   }
 
 
 #contentwide {
- clear:none;
- float:left;
+    clear:none;
     line-height : 1.5em;
-    margin: 10px 0;
+    margin: 10px 15px 10px 180px;
     padding: 0;
     text-align : left;
   }
@@ -235,12 +234,13 @@ p.extmenuadmin {
 #contentfull {
     line-height : 1.5em;
     margin: 10px;
-    padding: 2px 0 0 0;
+    padding: 0;
     text-align : left;
   }
 
 
-#content h1, #contentwide h1, #contentfull h1 {
+/* #content h1, #contentwide h1, #contentfull h1 { */
+h1{
     font-size : 2.0em;
     font-weight : normal;
     letter-spacing : -1px;
@@ -249,7 +249,9 @@ p.extmenuadmin {
   }
 
 
-#content h2, #contentwide h2, #contentfull h2 {
+/* #content h2, #contentwide h2, #contentfull h2 { */
+h2
+{
     font-size : 1.8em;
     font-weight : normal;
     letter-spacing : -1px;
@@ -258,7 +260,7 @@ p.extmenuadmin {
   }
 
 
-#content h3, #contentwide h3, #contentfull h3 {
+h3 {
     font-size : 1.5em;
     font-weight : normal;
     margin: 6px 0;
@@ -275,22 +277,21 @@ p.extmenuadmin {
   }
 */
 
-#content a, #contentwide a, #contentfull a {
+a {
     font-weight : bold;
   }
 
-#content ul, #content ol,#contentwide ul, #contentwide ol,#contentfull ul, #contentfull ol {
+ul, ol {
     margin: 0 0 16px 20px;
     padding: 0;
   }
 
-
-#content ul ul, #content ol ol,#contentwide ul ul, #contentwide ol ol,#contentfull ul ul, #contentfull ol ol {
+ul ul, ol ol {
     margin: 2px 0 2px 20px;
   }
 
 
-#content li, #contentwide li, #contentfull li {
+li {
     margin: 0 0 2px 10px;
     padding: 0 0 0 4px;
   }

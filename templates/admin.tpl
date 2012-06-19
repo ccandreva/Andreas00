@@ -8,10 +8,7 @@
 <div id="wrap">
 {include file="includes/header.tpl"}
 
-    <div id="avmenu">
-	{blockposition name=left}
-    </div>
-    <div id="contentwide">
+    <div id="contentfull">
         {$maincontent}
     </div>
 
