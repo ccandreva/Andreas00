@@ -25,11 +25,10 @@ body {
 #wrap {
     background: #ffffff;
     border: 1px solid #b0b0b0;
-    border-top: none;
     -moz-box-shadow: 0 0 12px 1px #b0b0b0;
+    border-radius: 15px;
     color : #303030;
-    margin: 0 50px;
-    padding: 1px 5px;
+    margin: 20px;
     min-width : 900px;
   }
 
@@ -38,6 +37,7 @@ body {
 
 #header {
     background: #ffffff url('../images/front3.jpg') no-repeat bottom right;
+    border-radius: 15px;
     color : #505050;
     height : 125px;
     margin: 0 0 10px 0;
@@ -181,7 +181,7 @@ p.extmenuadmin {
     font-size : 0.9em;
     margin: 0 15px 10px 10px;
     padding: 0;
-    width : 130px;
+    width : 180px;
   }
 
 
@@ -204,7 +204,10 @@ p.extmenuadmin {
     padding: 0;
   }
 
-
+div.z-blockposition-right + div.z-blockposition-right
+{
+    margin-top: 20px;
+}
 
 /***** Main content *****/
 
@@ -213,7 +216,7 @@ p.extmenuadmin {
     clear:none;
     /* float:left; */
     line-height : 1.5em;
-    margin: 10px 180px 10px 180px;
+    margin: 10px 220px 10px 180px;
     padding: 0 ;
     text-align : left;
     overflow: hidden;
@@ -303,7 +306,7 @@ li {
     clear : both;
     color : #808080;
     font-size : 0.9em;
-    margin: 0 auto;
+    margin: 0 8px 5px 8px;
     padding: 8px 0 15px 0;
     text-align : center;
     border: 2px solid #dadada;
