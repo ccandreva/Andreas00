@@ -219,6 +219,7 @@ p.extmenuadmin {
     margin: 10px 180px 10px 180px;
     padding: 0 ;
     text-align : left;
+    overflow: hidden;
   }
 
 
@@ -228,6 +229,7 @@ p.extmenuadmin {
     margin: 10px 15px 10px 180px;
     padding: 0;
     text-align : left;
+    overflow: hidden;
   }
 
 
