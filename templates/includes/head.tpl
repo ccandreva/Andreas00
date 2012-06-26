@@ -1,5 +1,5 @@
 <title>{title}</title>
-<meta http-equiv="Content-Type" content="text/html; charset={charset}" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
 <meta name="Author" content="{sitename}" />
 <meta name="description" content="{slogan}" />
@@ -16,5 +16,5 @@
 <link rel="alternate" href="{pnmodurl modname='News' type='user' func='view' theme='rss'}" type="application/rss+xml" title="<!--[sitename]--> Main Feed" />
 
 
-<link rel="stylesheet" href="{$stylepath}/style.css" type="text/css" media="screen,projection" />
+<link rel="stylesheet" href="{$stylepath}/style.css" type="text/css" {*media="screen,projection"*} />
 
