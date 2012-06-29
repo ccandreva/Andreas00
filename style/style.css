@@ -1,3 +1,4 @@
+@import url(../fonts/stylesheet.css);
 
 /* andreas00 - an open source xhtml/css website layout by Andreas Viklund
 http://andreasviklund.com . Free to use for any purpose as long as the proper
@@ -48,7 +49,8 @@ body {
 
 
 #header h1 {
-    font-size : 2.5em;
+    font-family : Journal,Verdana,Tahoma,Arial,sans-serif;
+    font-size : 40px;
     font-weight : normal;
     letter-spacing : -2px;
     margin: 0 0 4px 15px;
@@ -60,9 +62,9 @@ body {
     padding: 0;
   }
 
-
 #header p {
-    font-size : 1.1em;
+    font-family : Journal,Verdana,Tahoma,Arial,sans-serif;
+    font-size : 20px;
     letter-spacing : -1px;
     margin: 0 0 5px 15px;
     padding: 0 0 0 3px;
@@ -170,11 +172,18 @@ p.extmenuadmin {
     color : #004E78;
     background-color : #EAF9FD;
     border-bottom: 1px dotted #004E78;
-    font-size : 1.4em;
+    font-family : Journal,Verdana,Tahoma,Arial,sans-serif;
+    font-size : 25px;
     font-weight : normal;
+    letter-spacing: 0;
     padding: 2px 0 2px 5px;
   }
-
+/*
+h3.news_title{
+    font-family : Journal,Verdana,Tahoma,Arial,sans-serif;
+    font-size: 30px;
+}
+  */
 /***** Right sidebar *****/
 
 
